@@ -35,7 +35,7 @@ gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-sass', '~> 4.5'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
-gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'simple_form', '~> 5.0'
 
 
 group :development, :test do
