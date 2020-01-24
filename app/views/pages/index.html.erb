@@ -142,8 +142,9 @@ ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
  <!-- Side Widget Well -->
 
  <div class="well">
-   <h4>Останні надходження</h4>
+   <h4>Recent Posts</h4>
    <% @articles.each do |a| %>
+     Created be: <%= a.user.username %></strong><br \>
      <strong><%= link_to a.title, a %></strong>
      <p><%= truncate(a.body) %></p>
    <% end %>
